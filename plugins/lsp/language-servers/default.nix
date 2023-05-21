@@ -32,6 +32,8 @@ with lib; let
       name = "clojure-lsp";
       description = "Enable clojure-lsp, for Clojure";
       package = pkgs.clojure-lsp;
+      filetypes = ["clojure" "edn"];
+      serverName = "clojure_lsp";
     }
     {
       name = "cssls";
